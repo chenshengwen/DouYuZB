@@ -52,7 +52,7 @@
 		796B12871EF26D3200049F84 /* DYZB */ = {
 			isa = PBXGroup;
 			children = (
-				796B129A1EF276BF00049F84 /* Classes */,
+				796B12C71EF27A3E00049F84 /* Classes */,
 				796B12881EF26D3200049F84 /* AppDelegate.swift */,
 				796B128C1EF26D3200049F84 /* Main.storyboard */,
 				796B128F1EF26D3200049F84 /* Assets.xcassets */,
@@ -62,167 +62,247 @@
 			path = DYZB;
 			sourceTree = "<group>";
 		};
-		796B129A1EF276BF00049F84 /* Classes */ = {
+		796B12C71EF27A3E00049F84 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				796B12A01EF276BF00049F84 /* Main */,
-				796B129B1EF276BF00049F84 /* Home */,
-				796B12A51EF276BF00049F84 /* Room */,
-				796B12AA1EF276BF00049F84 /* Tools */,
+				796B12D71EF27A3E00049F84 /* Main */,
+				796B12CD1EF27A3E00049F84 /* Home */,
+				796B12C81EF27A3E00049F84 /* Follow */,
+				796B12D21EF27A3E00049F84 /* Live */,
+				796B12DC1EF27A3E00049F84 /* Profile */,
+				796B12E11EF27A3E00049F84 /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		796B129B1EF276BF00049F84 /* Home */ = {
+		796B12C81EF27A3E00049F84 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
-				796B129C1EF276BF00049F84 /* Controller */,
-				796B129D1EF276BF00049F84 /* Model */,
-				796B129E1EF276BF00049F84 /* View */,
-				796B129F1EF276BF00049F84 /* ViewModel */,
+				796B12C91EF27A3E00049F84 /* Controller */,
+				796B12CA1EF27A3E00049F84 /* Model */,
+				796B12CB1EF27A3E00049F84 /* View */,
+				796B12CC1EF27A3E00049F84 /* ViewModel */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		796B12C91EF27A3E00049F84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		796B12CA1EF27A3E00049F84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		796B12CB1EF27A3E00049F84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		796B12CC1EF27A3E00049F84 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		796B12CD1EF27A3E00049F84 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				796B12CE1EF27A3E00049F84 /* Controller */,
+				796B12CF1EF27A3E00049F84 /* Model */,
+				796B12D01EF27A3E00049F84 /* View */,
+				796B12D11EF27A3E00049F84 /* ViewModel */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		796B129C1EF276BF00049F84 /* Controller */ = {
+		796B12CE1EF27A3E00049F84 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		796B129D1EF276BF00049F84 /* Model */ = {
+		796B12CF1EF27A3E00049F84 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		796B129E1EF276BF00049F84 /* View */ = {
+		796B12D01EF27A3E00049F84 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		796B129F1EF276BF00049F84 /* ViewModel */ = {
+		796B12D11EF27A3E00049F84 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		796B12A01EF276BF00049F84 /* Main */ = {
+		796B12D21EF27A3E00049F84 /* Live */ = {
 			isa = PBXGroup;
 			children = (
-				796B12A11EF276BF00049F84 /* Controller */,
-				796B12A21EF276BF00049F84 /* Model */,
-				796B12A31EF276BF00049F84 /* View */,
-				796B12A41EF276BF00049F84 /* ViewModel */,
+				796B12D31EF27A3E00049F84 /* Controller */,
+				796B12D41EF27A3E00049F84 /* Model */,
+				796B12D51EF27A3E00049F84 /* View */,
+				796B12D61EF27A3E00049F84 /* ViewModel */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		796B12D31EF27A3E00049F84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		796B12D41EF27A3E00049F84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		796B12D51EF27A3E00049F84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		796B12D61EF27A3E00049F84 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		796B12D71EF27A3E00049F84 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				796B12D81EF27A3E00049F84 /* Controller */,
+				796B12D91EF27A3E00049F84 /* Model */,
+				796B12DA1EF27A3E00049F84 /* View */,
+				796B12DB1EF27A3E00049F84 /* ViewModel */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		796B12A11EF276BF00049F84 /* Controller */ = {
+		796B12D81EF27A3E00049F84 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		796B12A21EF276BF00049F84 /* Model */ = {
+		796B12D91EF27A3E00049F84 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		796B12A31EF276BF00049F84 /* View */ = {
+		796B12DA1EF27A3E00049F84 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		796B12A41EF276BF00049F84 /* ViewModel */ = {
+		796B12DB1EF27A3E00049F84 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		796B12A51EF276BF00049F84 /* Room */ = {
+		796B12DC1EF27A3E00049F84 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				796B12A61EF276BF00049F84 /* Controller */,
-				796B12A71EF276BF00049F84 /* Model */,
-				796B12A81EF276BF00049F84 /* View */,
-				796B12A91EF276BF00049F84 /* ViewModel */,
+				796B12DD1EF27A3E00049F84 /* Controller */,
+				796B12DE1EF27A3E00049F84 /* Model */,
+				796B12DF1EF27A3E00049F84 /* View */,
+				796B12E01EF27A3E00049F84 /* ViewModel */,
 			);
-			path = Room;
+			path = Profile;
 			sourceTree = "<group>";
 		};
-		796B12A61EF276BF00049F84 /* Controller */ = {
+		796B12DD1EF27A3E00049F84 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		796B12A71EF276BF00049F84 /* Model */ = {
+		796B12DE1EF27A3E00049F84 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		796B12A81EF276BF00049F84 /* View */ = {
+		796B12DF1EF27A3E00049F84 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		796B12A91EF276BF00049F84 /* ViewModel */ = {
+		796B12E01EF27A3E00049F84 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		796B12AA1EF276BF00049F84 /* Tools */ = {
+		796B12E11EF27A3E00049F84 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				796B12AB1EF276BF00049F84 /* Controller */,
-				796B12AC1EF276BF00049F84 /* Model */,
-				796B12AD1EF276BF00049F84 /* View */,
-				796B12AE1EF276BF00049F84 /* ViewModel */,
+				796B12E21EF27A3E00049F84 /* Controller */,
+				796B12E31EF27A3E00049F84 /* Model */,
+				796B12E41EF27A3E00049F84 /* View */,
+				796B12E51EF27A3E00049F84 /* ViewModel */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		796B12AB1EF276BF00049F84 /* Controller */ = {
+		796B12E21EF27A3E00049F84 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		796B12AC1EF276BF00049F84 /* Model */ = {
+		796B12E31EF27A3E00049F84 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		796B12AD1EF276BF00049F84 /* View */ = {
+		796B12E41EF27A3E00049F84 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		796B12AE1EF276BF00049F84 /* ViewModel */ = {
+		796B12E51EF27A3E00049F84 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
